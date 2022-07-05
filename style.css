@@ -1,0 +1,31 @@
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    margin: 0px;
+}
+.banner-content p{
+    padding-bottom: 20px;
+}
+.banner-content{
+    color: white;
+    padding: 200px 320px;
+    width: 50%;
+    text-align: center;
+}
+.donate-button{
+    background-color: rgb(223, 62, 3);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.top-banner{
+    background-image: url("images/pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

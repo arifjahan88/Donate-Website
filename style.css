@@ -107,6 +107,54 @@ h2{
     box-shadow: 10px 10px 40px rgb(169, 169, 169);
     margin: 10px;
 }
-.subscribe-part{
-    display: flex;
+.box{
+    position: absolute;
+}
+.subscribe-part input{
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.text-part{
+    background-color: rgb(192, 192, 192);
+    width: 250px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    border-radius: 3px;
+}
+.button-part{
+    position: relative;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    background-color: orangered;
+    color: aliceblue;
+    left: -5px;   
+    border-radius: 3px;
+}
+.subscribe-part div{
+    margin: 30px 0px 50px 380px;
+    padding: 50px 100px;
+    background-color: antiquewhite;
+}
+footer{
+    margin-top: 250px;
+    margin-bottom: 0px;
+    padding: 50px;
+    background-color: black;
+}
+footer h1{
+    color: aliceblue;
+    margin: 0px;
+    text-align: center;
+}
+.footer-content{
+    color: aliceblue;
+    margin: 0px;
+    text-align: center;
 }
